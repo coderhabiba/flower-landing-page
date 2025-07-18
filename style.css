@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Lato', sans-serif;
+}
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.display-flex {
+  display: flex;
+}
+.btn-primary {
+  border-radius: 8px;
+  background: #e55473;
+  padding: 20px 45px;
+  color: #ffffff;
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0%;
+  border: 0;
+}
+.heading {
+  color: #272727;
+  font-size: 2.5 rem;
+  font-weight: 800;
+  line-height: 48px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.description {
+  color: #27272799;
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* header style */
+header {
+  background-color: #e554731a;
+}
+.banner {
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 180px;
+  padding-bottom: 130px;
+}
+.banner-content h1 {
+  color: #272727;
+  font-size: 5rem;
+  font-weight: 800;
+  line-height: 96px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.banner-content p {
+  margin: 32px 0;
+} /* end header style */
+
+/* featured style */
+.featured {
+  padding: 180px 0 128px 0;
+  text-align: center;
+}
+.featured-content p {
+  margin-top: 24px;
+  margin-bottom: 48px;
+  text-align: center;
+}
+.featured-album {
+  align-items: center;
+  justify-content: space-between;
+}
+.featured-album p {
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 35px;
+  letter-spacing: 0%;
+  text-align: center;
+  text-decoration-line: underline;
+  color: #272727;
+}
+
+.item-1,
+.item-2,
+.item-3 {
+  width: 464px;
+  height: 538px;
+  margin-bottom: 32px;
+}
+
+.item-1 {
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(167, 33, 98, 0.15);
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+.item-2 {
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(5, 151, 160, 0.15);
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+.item-3 {
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(71, 125, 17, 0.15);
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+.featured-support {
+  border-radius: 8px;
+  background: rgba(39, 39, 39, 0.05);
+  margin-top: 128px;
+  padding: 80px 150px;
+}
+
+/* end featured style */
