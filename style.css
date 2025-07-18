@@ -152,12 +152,10 @@ header {
 @media screen and (max-width: 576px) {
   .banner {
     flex-direction: column;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin: 0 auto;
   }
   .featured {
-    margin-left: 5%;
-    margin-right: 5%;
+    margin: 0 auto;
   }
   .featured-album {
     flex-direction: column;
