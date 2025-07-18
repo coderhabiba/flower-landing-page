@@ -140,12 +140,38 @@ header {
   margin-bottom: 24px;
 }
 .support-box p {
-  color: #272727CC;
+  color: #272727cc;
   font-size: 24px;
   font-weight: 600;
   line-height: 35px;
   letter-spacing: 0%;
   text-align: center;
-}
+} /* end featured style */
 
-/* end featured style */
+/* responsive for mobile */
+@media screen and (max-width: 576px) {
+  .banner {
+    flex-direction: column;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .featured {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .featured-album {
+    flex-direction: column;
+  }
+  .featured-album p{
+    margin-bottom: 32px;
+  }
+  .featured-support{
+    flex-direction: column;
+    gap: 48px;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 768px) {
+}
+/* responsive for mobile */
+/* responsive for tab */
+/* responsive for tab */
